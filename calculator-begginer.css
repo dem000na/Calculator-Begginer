@@ -1,0 +1,82 @@
+@font-face{
+    src: url(/Websites/Fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+
+body{
+    background-color: hsl(0, 0%, 15%);
+}
+
+.button button{
+    background-color: hsl(0, 0%, 33%);
+    color: hsl(0, 0%, 100%);
+    margin: 2px;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: hsl(0, 0%, 45%);
+}
+
+.button button:active{
+    background-color: hsl(0, 0%, 39%);
+}
+
+#point{
+    padding-right: 17px;
+}
+
+
+.button .specialBtn{
+    background-color: hsl(34, 100%, 51%);
+}
+
+.button .specialBtn:hover{
+    background-color: hsl(34, 100%, 63%);
+}
+
+.button .specialBtn:active{
+    background-color: hsl(34, 100%, 57%);
+}
+
+
+
+
+#minus{
+    padding-right: 15.5px;
+}
+
+#multiply{
+    padding-right: 6px;
+}
+
+#divide{
+    padding-right: 7px;
+}
+
+#clear{
+    font-size: 32px;
+    padding-top: 8px;
+}
+
+
+#equal{
+    font-size: 34px;
+    padding-top: 6px;
+    padding-right: 9px;
+}
+
+
+
+#displayNum{
+    font-family: Roboto-Regular , verdana, arial;
+    color: white;
+    font-size: 35px;
+}
+
+#result{
+    font-size: 35px;
+}
